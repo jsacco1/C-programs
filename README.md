@@ -12,6 +12,7 @@ A program that returns the total amount for an order of pizza with user-defined 
 
 Simple example of conditionals in C++, given user-defined integers.
 
+## Functions
 
-
+Finds the maximum value of 4 integers.
 
