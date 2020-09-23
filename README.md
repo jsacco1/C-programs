@@ -16,3 +16,6 @@ Simple example of conditionals in C++, given user-defined integers.
 
 Finds the maximum value of 4 integers.
 
+## Pointer
+
+Modifies values in memory. Update function returns sum and absolute difference of two integers.
