@@ -20,6 +20,6 @@ Finds the maximum value of 4 integers.
 
 Modifies values in memory. Update function returns sum and absolute difference of two integers.
 
-# Reverse array
+## Reverse array
 
 Reverses an user-generated array of integers.
