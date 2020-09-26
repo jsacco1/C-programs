@@ -24,6 +24,6 @@ Modifies values in memory. Update function returns sum and absolute difference o
 
 Reverses a user-generated array of integers.
 
-# Dynamic array
+## Dynamic array
 
 Locates integers in a user-defined number of variable-length arrays.
