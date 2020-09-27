@@ -1,4 +1,7 @@
 # C++ programs
+Contents of the repository.
+
+## 1. Intro to C++:
 
 ## Hello
 
@@ -27,3 +30,8 @@ Reverses a user-generated array of integers.
 ## Dynamic array
 
 Locates integers in a user-defined number of variable-length arrays.
+
+## 2. Strings
+## Strings Intro
+
+Intro to the C++ string class. Swaps first letters of two strings.
