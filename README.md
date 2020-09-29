@@ -35,3 +35,7 @@ Locates integers in a user-defined number of variable-length arrays.
 ### Strings Intro
 
 Intro to the C++ string class. Swaps first letters of two strings.
+
+### StringStream
+
+Input a line of comma-separated integers, for example (23, 81, 488), and return a vector of parsed integers.
