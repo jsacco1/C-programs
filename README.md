@@ -1,7 +1,7 @@
 # C++ programs
 Contents of the repository.
 
-## 1. Intro to C++:
+### 1. Intro to C++:
 
 ## Hello
 
