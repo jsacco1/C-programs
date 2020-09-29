@@ -39,3 +39,8 @@ Intro to the C++ string class. Swaps first letters of two strings.
 ### StringStream
 
 Input a line of comma-separated integers, for example (23, 81, 488), and return a vector of parsed integers.
+
+## 3. STL
+### Vector-Sort
+
+Sorting a user-defined vector of integers.
