@@ -2,8 +2,8 @@
 // James Sacco
 
 // Description:
-// input one line of n integers separated by commas.
-// returns a vector of parsed integers
+// Input one line of n integers separated by commas.
+// Returns a vector of parsed integers.
 
 #include <sstream>
 #include <vector>
