@@ -38,7 +38,7 @@ int main()
     vector<string> tagName;
     
     // remove these chars from tag declarations
-    char chars[] = "\\<";
+    char chars[] = "\\>";
         
     for (unsigned int i = 0; i < strlen(chars); i++)
     {
