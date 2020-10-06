@@ -9,14 +9,6 @@
 using namespace std;
 
 
-char charsToRemove[] = "</";
-
-void removeCharsFromString(string &str, char* charsToRemove ) {
-   for ( unsigned int i = 0; i < strlen(charsToRemove); ++i ) {
-      str.erase( remove(str.begin(), str.end(), charsToRemove[i]), str.end() );
-   }
-}
-
 int main() 
 {
     // constexpr std::size_t maxlinelen{200};
