@@ -8,9 +8,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+char charsToRemove[] = "</";
+
+void removeCharsFromString(string &str, char* charsToRemove ) {
+   for ( unsigned int i = 0; i < strlen(charsToRemove); ++i ) {
+      str.erase( remove(str.begin(), str.end(), charsToRemove[i]), str.end() );
+   }
+}
+
 int main() 
 {
-    constexpr std::size_t maxlinelen{200};
+    // constexpr std::size_t maxlinelen{200};
     // Input number of lines and queries
     int n, q, i;
     cin >> n >> q;
@@ -37,13 +46,14 @@ int main()
     vector<string> tagName;
     
     // remove these chars from tag declarations
-    char chars[] = "</-";
+    char chars[] = "\\<";
         
-    for (int i = 0; i < strlen(chars); ++i)
+    for (unsigned int i = 0; i < strlen(chars); i++)
     {
       input = src[i];
-      input.erase(remove(input.begin(), input.end(), chars[i]), input.end());
-    
+      input.erase(remove(input.begin(), input.end(), chars[i]), input.end());   
+
+
       // check first two string positions in tag
       if(input.substr(0,2)=="</")
        {
@@ -54,7 +64,7 @@ int main()
             stringstream ss;
             ss.str("");
             ss << input;
-            string t1,p1,v1;
+            string t1, p1, v1;
             char ch;
             ss >> ch >> t1 >> p1 >> ch >> v1;
             string input1 = "";
