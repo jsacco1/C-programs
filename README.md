@@ -40,7 +40,13 @@ Intro to the C++ string class. Swaps first letters of two strings.
 
 Input a line of comma-separated integers, for example (23, 81, 488), and return a vector of parsed integers.
 
+### Attr_parser
+
+Parses user-defined source code and queries. Returns attributes of various, user-defined tags.
+
 ## 3. STL
 ### Vector-Sort
 
 Sorting a user-defined vector of integers.
+
+
