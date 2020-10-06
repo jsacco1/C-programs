@@ -34,6 +34,9 @@ int main() {
         getline(cin,input);
         query.push_back(input);
     }
+    
+    // remove these chars from tag declarations
+    char chars[] = "<\"
 
     // Print value of attribute from each query.
     for(i = 0; i < q; i++)
