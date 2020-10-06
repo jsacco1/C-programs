@@ -47,8 +47,9 @@ int main()
 
 
       // check first two string positions in tag
-      if(input.substr(0,2)=="</")
+      if(input.substr(0,2) == "</")
        {
+          // remove the last element of the vector
             tagName.pop_back();
        }
        else
