@@ -69,6 +69,7 @@ int main()
             {
                 input1 = t1;
             }
+           // check queries for ~
             tagName.push_back(input1);
             m[*tagName.rbegin() + "~" + p1] = v1;
             while(ss)
