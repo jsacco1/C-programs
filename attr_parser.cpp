@@ -13,7 +13,7 @@ int main() {
     // Input number of lines and queries
     int n, q, i;
     cin >> n >> q;
-    string tmp;
+    string input;
     // Use vectors as dynamic arrays; their sizes can change at runtime.
     vector<string> src;
     vector<string> query;
@@ -26,13 +26,13 @@ int main() {
 
     for(i = 0 ; i < n; i++)
     {
-        getline(cin,tmp);
-        src.push_back(tmp);
+        getline(cin,input);
+        src.push_back(input);
     }
     for(i=0;i<q;i++)
     {
-        getline(cin,tmp);
-        query.push_back(tmp);
+        getline(cin,input);
+        query.push_back(input);
     }
 
     // Print value of attribute from each query.
