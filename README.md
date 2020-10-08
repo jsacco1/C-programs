@@ -49,4 +49,6 @@ Parses user-defined source code and queries. Returns attributes of various, user
 
 Sorting a user-defined vector of integers.
 
+### Map STL
 
+maps students and grades, then queries them.
