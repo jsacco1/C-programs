@@ -51,4 +51,9 @@ Sorting a user-defined vector of integers.
 
 ### Map STL
 
-maps students and grades, then queries them.
+Maps students and grades, then queries them.
+
+## Classes
+### Structs
+
+Creates a student struct.
