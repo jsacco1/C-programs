@@ -6,29 +6,42 @@
 using namespace std;
 
 class Student {
-    class Student{
-    int age, standard;
-    string first_name, last_name;
-    private:
+        int age, standard;
+        string first_name, last_name;
+        private:
         int age;
-    public:
-        void set_age(int a) {
-            age = a;
-        }
-        int get_age() {
-            return age;
-        }
-    // first name
-    private:
-        string first_name;
-    public:
-        void set_first_name(string f) {
-            first_name = f;
-        }
-        int get_first_name() {
-            return first_name;
-        }
-};
+public:
+    Student()
+    {
+        age = 0;
+        standard = 0;
+        first_name.clear();
+        last_name.clear();
+    }     
+    // setters   
+    void set_age(int a){
+    {
+        age = newAge;
+    }
+    void set_standard(int s){
+    {
+        standard = s;
+    }
+    void set_first_name(string f)
+    {
+        first_name = f;
+    }
+    void set_last_name(string l)
+    {
+        last_name = l;
+    }   
+     // getters  
+    int get_age() {return age;}
+    int get_standard() {return standard;}
+    string get_first_name() {return first_name;}
+    string get_last_name() {return last_name;}
+       
+        
 
 int main() {
     int age, standard;
