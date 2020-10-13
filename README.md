@@ -57,3 +57,7 @@ Maps students and grades, then queries them.
 ### Structs
 
 Creates a student struct.
+
+### Student Class
+
+Creates a class Student.
