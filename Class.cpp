@@ -6,7 +6,9 @@
 using namespace std;
 
 class Student {
-    // age
+    class Student{
+    int age, standard;
+    string first_name, last_name;
     private:
         int age;
     public:
