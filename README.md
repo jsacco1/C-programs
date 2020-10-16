@@ -61,3 +61,7 @@ Creates a student struct.
 ### Student Class
 
 Creates a class Student.
+
+### Classes and Objects.
+
+Creates a Student class that holds test scores.
