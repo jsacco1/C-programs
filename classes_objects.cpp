@@ -1,3 +1,6 @@
+// Classes and objects
+// James Sacco
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
