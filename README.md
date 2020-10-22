@@ -64,4 +64,4 @@ Creates a class Student.
 
 ### Classes and Objects.
 
-Creates a Student class that holds test scores.
+Creates a Student class that holds test scores. Compares scores for given student.
